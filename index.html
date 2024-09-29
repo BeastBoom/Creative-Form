@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background">
+        <div class="leftpic">
+            <img src="images/Phone.png" width="280px" height="340px"/>
+        </div>
+        <div class="right">
+            <center><h1><u>Novell Services Login</u></h1></center>
+            <form>
+                <div class="Form">
+                    <div id="margin">
+                        <label for="username">Username:</label>
+                        <input type="text" class="hover" id="username" name="username" placeholder="Enter Username" required>
+                    </div>
+
+                    <div id="margin">
+                    <label for="password">Password:</label>
+                    <input type="password" class="hover" id="password" name="password" placeholder="Enter Password">
+                    </div>
+
+                    <div id="margin">
+                        <label for="city">City of Employment:</label>
+                        <input type="text" class="hover" id="city" name="city" placeholder="Enter City">
+                    </div>
+
+                    <div style="margin-right: 20px;">
+                        <label for="web-server">Web server:</label>
+                        <select class="hover" id="web-server" name="web-server" required>
+                            <option value="" disabled selected>--Choose a server--</option>
+                            <option value="server1">Server 1</option>
+                            <option value="server2">Server 2</option>
+                        </select>
+                    </div>
+                
+                    <div id="margin">
+                        <p style="margin: 0px 180px 0px 0px;">Please specify your role:</p>
+                        <div class="minus">
+                            <label><input type="radio" name="role" value="admin"> Admin</label><br>
+                            <label><input type="radio" name="role" value="engineer"> Engineer</label><br>
+                            <label><input type="radio" name="role" value="manager"> Manager</label><br>
+                            <label><input type="radio" name="role" value="guest"> Guest</label><br>
+                        </div>
+                    </div>
+
+                    <div id="margin">
+                        <p style="margin: 0px 180px 0px 0px;">Single Sign-on to the following:</p>
+                        <div class="minus">
+                            <label><input type="checkbox" name="services" value="mail"> Mail</label><br>
+                            <label><input type="checkbox" name="services" value="payroll"> Payroll</label><br>
+                            <label><input type="checkbox" name="services" value="self-service"> Self-service</label><br>
+                        </div>
+                    </div>
+
+                    <div id="margin">
+                        <div style="margin-right:50px;">
+                            <button type="submit" class="login-btn">Login</button>
+                            <button type="reset" class="reset-btn">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="images">
+        <div style="margin-top: 510px;">
+            <img src="images/plant.png" height="150px" width="150px">
+        </div>
+        <div>
+            <img src="images/linkedin.png" height="45px" width="45px">
+        </div>
+        <div>
+            <img src="images/instagram.png" height="45px" width="45px" >
+        </div>
+        <div style="margin-right:20px;">
+            <img src="images/twitter.png" height="45px" width="45px">
+        </div>
+        <hr>
+        <div style="margin: 330px 0px 0px 0px;">
+            <img src="images/keyword.png" height="140px" width="140px">
+        </div>
+        <div style="margin: -10px 0px 0px 10px;">
+            <img src="images/flower-shop.png" height="100px" width="100px">
+        </div>
+    </div>
+  </body>
+</html>
